@@ -1,8 +1,8 @@
 /*menu*/
 .header-inicio {
 	width:100%;
-	min-height: 100vh;
-	background-image:url(../img/17.jpg);
+	min-height:100vh;
+	background-image: url(../img/17.jpg);
     background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -33,8 +33,12 @@
 @media (min-width: 768px){
 	.bg-dark {
 		background-color:transparent !important;
+.header-inicio {
+	background-image: url(../img/17.jpg);
+	width:100%;
 
-		 }
+}
+		}
 		}
 
 
@@ -301,7 +305,8 @@ h1 {
 footer {
 	// position: fixed;
 	bottom: 0px;
-	width: 100%;
+	width:100%;
+	min-width:1200px;
 	background:#212529;
 	color:#D5DEDE;
 	font-family: Roboto;
@@ -466,12 +471,13 @@ footer {
 }
 
 .presentacion{
-	section{
+	section{ 
 		h3{ 
 			font-family:Roboto;
 			font-size:36px;
 			color:#994C12;
 			padding:20px;
+			
 
 		}
 	}
@@ -483,8 +489,34 @@ footer {
 			font-family:Roboto;
 			font-size:16px;
 			padding: 20px;
-		}
+			
 }
-}
+  }
+   }
 
-	
+.post-presentacion{
+	 width:100%;
+	 height:200px;
+	 margin:0px 0px 40px 0px;
+	 padding:10px;
+	 background:#027339;
+	 opacity:.8; 
+}   
+  
+.post-presentacion {
+	span{
+		
+		color:#212529;
+		font-size:100px;
+
+	}
+} 
+
+//responsive
+
+.contenedor-all{
+	width:80%;
+	max-width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}

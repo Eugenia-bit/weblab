@@ -29,6 +29,10 @@
   .bg-dark {
     background-color: transparent !important;
   }
+  .bg-dark .header-inicio {
+    background-image: url(../img/17.jpg);
+    width: 100%;
+  }
 }
 .navg a {
   color: #f4f4f4 !important;
@@ -242,6 +246,7 @@ h1 {
 footer {
   bottom: 0px;
   width: 100%;
+  min-width: 1200px;
   background: #212529;
   color: #D5DEDE;
   font-family: Roboto;
@@ -364,6 +369,27 @@ footer {
   font-family: Roboto;
   font-size: 16px;
   padding: 20px;
+}
+
+.post-presentacion {
+  width: 100%;
+  height: 200px;
+  margin: 0px 0px 40px 0px;
+  padding: 10px;
+  background: #027339;
+  opacity: 0.8;
+}
+
+.post-presentacion span {
+  color: #212529;
+  font-size: 100px;
+}
+
+.contenedor-all {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
