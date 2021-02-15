@@ -1,12 +1,14 @@
 /*menu*/
 .header-inicio {
   width: 100%;
-  min-height: 100vh;
+  min-width: 1200px;
   background-image: url(../img/17.jpg);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   background-attachment: fixed;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .header:before {
@@ -52,18 +54,14 @@
   min-height: 100vh;
   color: #f4f4f4;
   font-family: "Roboto";
+  box-sizing: border-box;
 }
 
 .text-header h2 {
+  font-size: 40px;
   font-family: "Roboto";
-  padding: 30px;
-}
-
-.text-header span {
-  letter-spacing: 3px;
-  font-size: 1.1em;
-  font-family: "Roboto";
-  margin: 0 0 0 5px;
+  letter-spacing: 2px;
+  padding: 5px;
 }
 
 .text-header p {
@@ -115,7 +113,10 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: 954px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container-card {
@@ -168,6 +169,7 @@ body {
 .container-info {
   width: 100%;
   height: 300px;
+  box-sizing: border-box;
   background-color: #219460;
 }
 
@@ -222,18 +224,11 @@ h1 {
   position: absolute;
   left: 20px;
   top: 90px;
+  box-sizing: border-box;
   transform: translateX(120%);
   font-family: Roboto;
   font-size: 15px;
   color: black;
-}
-
-.container-espacio {
-  width: 100%;
-  height: 40px;
-  background: #FEFFFA;
-  padding: 20px;
-  margin: 20px;
 }
 
 * {
@@ -247,13 +242,17 @@ footer {
   bottom: 0px;
   width: 100%;
   min-width: 1200px;
+  box-sizing: border-box;
+  padding: 20px 0px;
   background: #212529;
   color: #D5DEDE;
   font-family: Roboto;
-  padding: 20px;
+  margin: 0 auto;
 }
 
 .main-content {
+  min-width: 1200px;
+  box-sizing: border-box;
   display: flex;
   font-family: Roboto;
 }
@@ -261,6 +260,7 @@ footer {
 .main-content .box {
   flex-basis: 50%;
   padding: 10px 20px;
+  box-sizing: border-box;
   font-family: Roboto;
 }
 
@@ -293,8 +293,8 @@ footer {
 }
 
 .left .container-footer .social a span {
-  height: 40px;
-  width: 40px;
+  height: 4%;
+  width: 10%;
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -358,24 +358,44 @@ footer {
   justify-content: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+.presentacion {
+  max-width: 700px;
+  width: 100%;
+  padding: 45px 20px;
+  margin: auto;
+  margin-top: 150px;
+}
+
 .presentacion section h3 {
   font-family: Roboto;
-  font-size: 36px;
+  font-size: 2rem;
   color: #994C12;
-  padding: 20px;
+  padding: 5px;
+  margin: 0px auto;
 }
 
 .presentacion section p {
   font-family: Roboto;
-  font-size: 16px;
-  padding: 20px;
+  font-size: 1, 5rem;
+  padding: 5px;
 }
 
 .post-presentacion {
   width: 100%;
+  min-width: 1200px;
   height: 200px;
-  margin: 0px 0px 40px 0px;
-  padding: 10px;
+  margin: 0px 0px 5px 0px;
+  padding: 5px;
+  box-sizing: border-box;
   background: #027339;
   opacity: 0.8;
 }
@@ -383,6 +403,73 @@ footer {
 .post-presentacion span {
   color: #212529;
   font-size: 100px;
+}
+
+@media screen and (max-width: 540px) {
+  .presentacion section p {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-left: 10px;
+    margin-left: 10px;
+  }
+
+  .presentacion section h3 {
+    font-size: 24px;
+    padding-left: 10px;
+    border-left: 10px;
+    margin-left: 10px;
+  }
+
+  .header-inicio {
+    background-image: 100% auto;
+  }
+
+  .text-header h2 {
+    font-size: 36px;
+    padding: 5px 5px 5px 0px;
+    padding-top: 15px;
+  }
+
+  .text-header p {
+    display: none;
+  }
+
+  .header-inicio {
+    border: 0 auto;
+    margin: 0 auto;
+    background-size: auto 100%;
+  }
+}
+footer {
+  background-size: 30% 40%;
+}
+footer .main-content h2, footer .main-content p {
+  display: none;
+}
+
+.center-box {
+  display: none;
+}
+
+.contenedor-img img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .header-inicio {
+    background-image: 100% auto;
+  }
+  .header-inicio .text-header h2 {
+    font-size: 36px;
+    padding: 5px 5px 5px 0px;
+  }
+  .header-inicio .text-header p {
+    font-size: 12px;
+    text-align: margin-left;
+    letter-spacing: 1px;
+    padding: 10px 5px 5px 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
