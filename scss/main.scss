@@ -146,6 +146,38 @@ body {
     box-sizing:border-box;
 
 }
+// ME QUEDE ACA
+.introduccion{
+
+    width:100%;
+	max-width:1000px;
+	height:30%;
+	box-sizing:border-box;
+    display:flex;
+	padding:30px;
+	padding-left:-10px;
+	margin-left:50px;
+	border: 1px solid black;
+
+	h4{
+		font-family:Roboto;
+		font-size:46px;
+		padding:20px;
+		color: #994C12;
+
+}
+		 }
+.introduccion{
+    p{
+    	font-family: Roboto;
+    	font-size:20px;
+    	padding:20px;
+    	margin-bottom:20px;
+    }		
+
+	}
+
+
 
 .container-card {
 width: 100%;
@@ -587,10 +619,11 @@ html{
 }
  }
   }
+@media screen and (max-width: 540px) {
 
-.presentacion{
-	section{
-		h3{ 
+  .presentacion{
+		section{
+			h3{ 
 
 			font-size:24px;
 			padding-left:10px;
@@ -599,14 +632,13 @@ html{
 
 }
 	}
- 		}
-
+		}
+			}
 
 .header-inicio {
 	background-image:100% auto;
-    
+	}
 
-}
 .text-header{
 
  		h2{
@@ -614,50 +646,54 @@ html{
  			font-size:36px;
  			padding: 5px 5px 5px 0px;
  			padding-top:15px;
-}
- }
-    .text-header{
 
-        
-    	p {
+}
+	}
+
+.text-header{
+		p {
 
     	 display:none;  
     	
+}
+	}
 
-    	}
-    }
 
-
-    .header-inicio{
+  .header-inicio{
 
     	    border:0 auto;
     	    margin:0 auto;
     	    background-size:auto 100%;
     }
+}
 
-} 
 
- footer{
+@media screen and (max-width: 540px) {
+footer{
 
  	   background-size:30% 40%;
 
- 		.main-content{
+ .main-content{
  			h2,p{
  				display:none;
- 			}
  		}
-
+ 	}
 }
+
+@media screen and (max-width: 540px) {
 
 .center-box{
 	display: none;
 }
+ }
+@media screen and (max-width: 540px) {
 
 .contenedor-img{
 	img{
 		max-width:100%;
 	}
-}
+} 
+ }
 
 @media screen and (max-width: 540px) {
 
@@ -699,6 +735,8 @@ html{
  			padding: 5px 5px 5px 0px;
 }
  }
+  }
+ 
     .text-header{
 
         
