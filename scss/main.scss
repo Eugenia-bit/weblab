@@ -447,6 +447,25 @@ footer {
 	box-sizing:border-box;
 }
 
+.text-center{
+
+	padding-top:30px;
+	font-size:20px;
+	font-family:Roboto;
+
+	
+
+	.blockquote{
+
+         p{
+         	font-size:40px;
+         	font-family: Roboto;
+         	letter-spacing:2px;
+         	color:black;
+}
+}
+ }
+
 
 .galeria {
 
@@ -464,8 +483,8 @@ footer {
         margin:auto;
 		justify-content:center;
 		flex-wrap:wrap;
-		border-radius:2px;
-}
+		border:0px;
+	}
 
 .contenedor-img .imagen{
 
@@ -473,15 +492,14 @@ footer {
 			position: relative;
 			height:250px;
 			margin-bottom:5px;
-			box-shadow: 0px 0px 2px 0px rgba(0,0,0, .70);
  }
 
 
 .imagen img{
 
     width: 100%;
-	height: 100%;
-	padding:1px;
+	height:auto;
+	padding:10px;
 	object-fit:cover;
 	justify-content:center;
 }
@@ -641,9 +659,15 @@ html{
 	}
 }
 
+@media screen and (max-width: 540px) {
 
-
-
+.contenedor-img .imagen{
+    width:100%;
+	max-width:100%;
+    height:auto;
+	display:flex;
+}
+ }
 
 
 
