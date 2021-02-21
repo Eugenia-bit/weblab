@@ -1,4 +1,5 @@
 /*menu*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 
@@ -37,17 +38,25 @@
 }
 
 @media (min-width: 768px){
-	.bg-dark {
-		background-color:transparent !important;
+
 		.header-inicio {
 			background-image: url(../img/17.jpg);
 			width:100%;
 
-		}
-	}
+		.navbar-toggler-icon {
+			display:flex;
+			align-content:flex-start;
+
 }
+	}
+		}
 
-
+@media screen and (max-width: 540px) {
+			.navg a{
+                 display:flex;
+				 text-align:left;
+}
+	}
 
 .navg a {
 
@@ -75,12 +84,10 @@ background-color:#219460;
 .text-header h2 {
     font-size: 40px;
 	font-family:"Roboto";
-	letter-spacing:2px;
+	letter-spacing:7px;
 	padding:5px;
 
 }
-
-
 
 .text-header p { 
       font-size:20px;
@@ -91,6 +98,7 @@ background-color:#219460;
 	
    padding:7px;
    color:#f4f4f4;
+   margin-left:10px;
    background-color:#219460;
    text-decoration:none;
    border-radius: 5px;
@@ -101,7 +109,11 @@ background-color:#219460;
     color:#f4f4f4;
 	background-color:#2ED188;
 	}
-
+.navbar-toggler-icon{
+	background:#f4f4f4;
+	opacity:.3;
+	border-radius:3px;
+}
 .navbar-toggler-icon:hover {
     color:#f4f4f4;
     background-color:#2ED188;
@@ -146,24 +158,25 @@ body {
     box-sizing:border-box;
 
 }
-// ME QUEDE ACA
+
 .introduccion{
 
     width:100%;
 	max-width:1000px;
 	height:30%;
-	box-sizing:border-box;
     display:flex;
 	padding:30px;
 	padding-left:-10px;
 	margin-left:50px;
-	border: 1px solid black;
+	box-sizing:border-box;
+
+	
 
 	h4{
 		font-family:Roboto;
 		font-size:46px;
 		padding:20px;
-		color: #994C12;
+		color:#B35915;
 
 }
 		 }
@@ -173,7 +186,10 @@ body {
     	font-size:20px;
     	padding:20px;
     	margin-bottom:20px;
-    }		
+    	margin-left:90px;
+    	box-sizing:border-box;
+
+}		
 
 	}
 
@@ -214,17 +230,24 @@ margin:auto;
 	img{
 		width: 330px;
 		height: 220px;
+
 	}
 }
 
 .container-card {
-	.car{
-		h4{
+	.card{
+		
+			h4{
+
+			font-family:Roboto;
 			font-weight: 600;
+
+			
 
 		}
 	}
 }
+
 
 .container-card{
 	.card{
@@ -249,79 +272,238 @@ margin:auto;
 
 
 // sectores-pagina guia
-
-
-.container-info{
-	width:100%;
-	height:300px;
+*{
+	margin:0;
+	padding:0;
 	box-sizing:border-box;
-    background-color:#219460;
 }
 
-// novedades
+.container_espacio{
+	width:100%;
+	height:700px;
+}
+.sector_film{
+	width:100%;
+	max-width:1300px;
+	height:400px;
+	margin:auto;
+	background-color:#F2F2F2;
+	margin-bottom:30px;
+}
+.sector_film{
 
-.contenedor-n {
+	img{
+		width:500px;
+        height:auto;
+		float:left;
+		object-fit:cover;
+        margin:20px 50px 20px 20px;
+		box-sizing:border-box;
 
-	position:relative;
-	top:150px;
-	margin: auto;
-	width: 420px;
-	height: 240px;
-	background-image: url(../img/4.jpg);
-	background-size: 100% 100%;
-	overflow: hidden;
-	color:#fff
+}
 }
 
+.sector_film{
+	h4{
+	font-family:Roboto;
+	font-size:36px;
+	color:#B35915;	
+	margin-top:20px;
+	margin-bottom:30px;
+	text-align:center;
+	}
+}
+.sector_film{
+	p{
+		font-family:Roboto;
+		font-size:16px;
+		margin:5px;
+		text-align:left;
 
- .contenedor-n:hover{
- 	h1,p {
- 		transform:translateX(0%);
- 		transition:all .6s; 	}
+}
+	}
+
+.sector_film2{
+	width:100%;
+	height:100px;
+	margin:auto;
+	background-color:#7FAA77;
+}
+.sector_film2{
+	h3{
+
+	font-family:Roboto;
+	font-size:3rem;
+	text-align:center;
+	color:#8F6A4A;
+	padding-top:20px;
+	word-spacing:1px;
+
+
+}
+	}
+.sector_film3{
+	width:100%;
+	height:100px;
+	margin:auto;
+	background-color:#7FAA77;
+}
+
+.sector_film3{
+	h3{
+
+	font-family:Roboto;
+	font-size:3rem;
+	text-align:center;
+	color:#8F6A4A;
+	padding-top:20px;
+	word-spacing:1px;
+
+
+
+}
  }
- 	.contenedor-n:before {
- 		position: absolute;
- 		top:10px;
- 		left: 20px;
- 		content:"";
- 		width:80%;
- 		height: 2px;
- 		background-color:black;
+ .sector_film1{
+ 	width:100%;
+ 	height:200px;
+ 	padding-left:20px;
+ 	// display:flex;
+
+ }
+
+.sector_film1{
+      h3{
+      		font-family:Roboto;
+      		font-size:42px;
+      		color:#7FAA77;
+      		display:flex;
+      		padding-bottom:20px;
+      		padding-left:30px;
 
 }
+  }
 
-	.contenedor-n:after {
- 		position: absolute;
- 		bottom:10px;
- 		right:20px;
- 		content:"";
- 		width:80%;
- 		height: 2px;
- 		background-color:black;
+.sector_film1{
+	h2{
+		font-family: Roboto;
+		font-size:2rem;
+		color:#B35915;
+		margin-top:30px;
+		padding-left:15px;
+		padding-right:15px;
+		text-align:center;
 
+	}
+}
+.sector_texto{
+	h4{
+	font-family:Roboto;
+	font-size:36px;
+	color:#B35915;	
+	text-align:center;
+	display:block;
+	position:relative;
+	
+	}
 }
 
-h1 {
-	position: absolute;
-	left:20px;
-	top:30px;
-	transform:translateX(-110%);
-	font-family: Roboto;
-	font-size: 30px;
-	color: black;
-}
+// guia responsive
 
-.texto_n{
-   position: absolute;
-   left:20px;
-   top:90px;
-   box-sizing:border-box;
+@media screen and (max-width: 540px) {
 
-   transform:translateX(120%);
-   font-family: Roboto;
-	font-size:15px;
-	color: black;
+.introduccion {
+	h4{
+		    width:100%;
+			max-width:1000px;
+			height:30%;
+			box-sizing:border-box;
+			font-family:Roboto;
+			font-size:40px;
+			margin-top:-40px;
+			color:#B35915;
+			
+			
 }
+	}
+		}
+
+@media screen and (max-width: 540px) {
+	.introduccion {
+ 		 	p{
+ 		 		display: none;
+}
+	}
+		}
+		 
+
+@media screen and (max-width: 540px) {
+
+.container-card{
+	margin-top:-100px;
+}
+	}
+
+@media screen and (max-width: 540px) {
+.sector_film1{
+
+	h3{
+
+	font-family:Roboto;
+	font-size:26px;
+    position:relative;
+    top:100px;
+}
+	}
+		}
+
+@media screen and (max-width: 540px) {
+.sector_film{
+
+    width:100%;
+	max-width:1300px;
+	height:800px;
+	margin:auto;
+	background-color:#F2F2F2;
+    position:relative;
+    top:30px;
+    bottom:30px;
+}
+ }
+
+ @media screen and (max-width: 540px) {
+.sector_film{
+	h4{
+		font-family: Roboto;
+		font-size:26px;
+}
+ }
+  @media screen and (max-width: 540px) {
+.sector_film{
+	p{
+ 	
+ 	font-family:Roboto;
+	font-size:1rem;
+	margin-left:10px;
+	margin-right:10px;
+}
+	}
+		}
+
+
+@media screen and (max-width: 540px) {
+
+.sector_film2{
+
+	     display:none;
+}
+	 }
+ @media screen and (max-width: 540px) {
+
+.sector_film3{
+				display:none;
+}
+	}
+ 
 
 // espaciado-footer
 
@@ -561,9 +743,9 @@ html{
 	section{ 
 		h3{ 
 			font-family:Roboto;
-			font-size:2rem;
-			color:#994C12;
-			padding:5px;
+			font-size:3rem;
+			color:#B35915;
+			padding:30px;
 			margin:0px auto;
 
 
@@ -577,7 +759,8 @@ html{
 		p{
 			font-family:Roboto;
 			font-size:1,5rem;
-			padding:5px;
+			padding:20px;
+			margin-left:10px;
 			
 }
   }
@@ -590,7 +773,7 @@ html{
 	 margin:0px 0px 5px 0px;
 	 padding:5px;
 	 box-sizing:border-box;
-     background:#027339;
+     background:#B35915;
 	 opacity:.8; 
 }   
   
@@ -619,6 +802,7 @@ html{
 }
  }
   }
+
 @media screen and (max-width: 540px) {
 
   .presentacion{
@@ -736,6 +920,7 @@ footer{
 }
  }
   }
+   }
  
     .text-header{
 
