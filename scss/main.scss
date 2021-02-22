@@ -1,7 +1,6 @@
 /*menu*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Jost:wght@500&display=swap');
 
 
 .header-inicio {
@@ -81,30 +80,39 @@ background-color:#219460;
 }
 
 .text-header h2 {
-    font-size: 40px;
-	font-family:"Roboto";
-	letter-spacing:7px;
+    font-size:10rem;
+	font-family:"Jost";
+	letter-spacing:9px;
+	position:relative;
+	top:10%;
+	left:0%;
 	padding:5px;
+	color:#DEDEDE;
+	webkit-text-fill-color:transparent;
+	opacity:.8;
 
 }
 
 .text-header p { 
-      font-size:20px;
+      font-size:1rem;
       padding:10px;
+      color:#DEDEDE;
+      position:relative;
+      left:25px;
+      top:10px;
 	}
 
 .btn-yo {
 	
    padding:7px;
    color:#f4f4f4;
-   margin-left:10px;
+   margin-left:35px;
    background-color:#219460;
    text-decoration:none;
    border-radius: 5px;
 }
 
 .btn-yo:hover {
-    
     color:#f4f4f4;
 	background-color:#2ED188;
 	}
