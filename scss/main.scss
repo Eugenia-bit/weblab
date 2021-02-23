@@ -897,6 +897,7 @@ html{
 
  	.btn-yo{
  			 position:relative;
+ 			 margin-top:30px;
 }
  }
 
@@ -922,11 +923,26 @@ html{
 			font-family:Roboto;
 			font-size:1.5rem;
 			color:#B35915;
-			padding:10px;
+			padding:5px;
 			margin:0px auto;
 
 }
  }
   } 
    }
+ @media screen and (max-width: 426px)  {
 
+	.presentacion{
+		section{
+			p{
+
+			font-family:Roboto;
+			font-size:1rem;
+			padding:0px;
+			margin-left:0px;
+			margin-top:10px;
+}
+ }
+  } 
+   }
+			
