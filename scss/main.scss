@@ -882,7 +882,7 @@ html{
 	}
 		}
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 540px)  {
 
 	.btn-yo{
 
@@ -893,8 +893,25 @@ html{
 		}
 
 
+@media screen and (max-width: 426px)  {
 
+ 	.btn-yo{
+ 			 position:relative;
+}
+ }
+ @media screen and (max-width: 426px)  {
 
+ 
+  .col-sm-8{
 
+		h2{
+		display:flex;
+		position:relative;
+		top:25%;
+        font-size:3rem;
+ 
+ }
+}
+}
 
 
