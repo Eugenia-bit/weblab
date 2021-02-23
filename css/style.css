@@ -654,5 +654,14 @@ html {
     font-size: 3rem;
   }
 }
+@media screen and (max-width: 426px) {
+  .presentacion section h3 {
+    font-family: Roboto;
+    font-size: 2rem;
+    color: #B35915;
+    padding: 10px;
+    margin: 0px auto;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
