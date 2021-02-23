@@ -421,9 +421,10 @@ margin:auto;
 			max-width:1000px;
 			height:30%;
 			box-sizing:border-box;
-			font-family:Roboto;
+			font-family:Jost;
 			font-size:40px;
-			margin-top:-40px;
+			margin-top:-100px;
+			margin-left:-20px;
 			color:#B35915;
 			
 			
@@ -431,97 +432,94 @@ margin:auto;
 	}
 		}
 
-@media screen and (max-width: 540px) {
-	.introduccion {
+
+		 
+
+@media screen and (max-width: 426px) {
+
+.introduccion {
  		 	p{
  		 		display: none;
 }
 	}
 		}
-		 
-
-@media screen and (max-width: 540px) {
-
+@media screen and (max-width: 426px) {
 .container-card{
-	margin-top:-100px;
+				margin-top:-100px;
+				margin-bottom:10px;
 }
 	}
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 426px) {
 .sector_film1 {
 
 	h3{
     font-family:Roboto;
-	font-size:26px;
+	font-size:1.8rem;
     position:relative;
     top:130px;
-    margin-top:30px;
-    padding-top:30px;
+    margin-top:40px;
+    padding-top:40px;
     box-sizing:border-box;
 
 }
 	}
 		}
-@media screen and (max-width: 540px) {
+
+
+@media screen and (max-width: 426px) {
 	.sector_film1 {
  				h2{
- 					font-family:Roboto;
- 					font-size:16px;
- 					position:relative;
- 					top:80px;
- 					padding-bottom:20px;
-
+ 					display:none;
 }
 	}
 		}
-
-
-
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 426px) {
 .sector_film {
 
     width:100%;
-	max-width:1300px;
 	height:800px;
 	margin:auto;
 	background-color:#F2F2F2;
     position:relative;
-    top:30px;
+    top:70px;
     bottom:30px;
 }
  }
 
- @media screen and (max-width: 540px) {
-.sector_film {
+@media screen and (max-width: 426px) {
+	.sector_film {
 	h4 {
 		font-family:Roboto;
-		font-size:26px;
-}
+		font-size:2.3rem;
+	}
  }
   }
-  @media screen and (max-width: 540px) {
-.sector_film {
-	p {
+
+
+@media screen and (max-width: 426px) {
+	.sector_film {
+				p {
  	
- 	font-family:Roboto;
-	font-size:1rem;
-	margin-left:20px;
-	margin-right:20px;
+ 			font-family:Roboto;
+			font-size:0.9rem;
+			margin-left:20px;
+			margin-right:20px;
 }
 	}
 		}
 
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 426px) {
+	.sector_film2 {
+		
 
-.sector_film2 {
 
-	     display:none;
+		display:none;
+	}
 }
-	 }
 
- @media screen and (max-width: 540px) {
-
+@media screen and (max-width: 426px) {
 .sector_film3 {
 				display:none;
 }
@@ -811,31 +809,29 @@ html{
 
 // Index responsive
 
-
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 426px)  {
 	.center-box{
 		
 			display:none;
 		}
 }
-
-@media screen and (max-width: 540px) {
-
- .main-content{
+@media screen and (max-width: 426px)  {
+.main-content{
  			h2,p{
  				display:none;
  		}
  	}
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 426px)  {
 	footer{
 
  	   background-size:30% 40%;
  	}
  	 }
 
-@media screen and (max-width: 540px) {
+
+@media screen and (max-width: 426px)  {
 	.header-inicio{
 
     	    border:0 auto;
@@ -844,27 +840,15 @@ html{
     }
 }
 
-@media screen and (max-width: 540px) {
-	.text-header{
-				p {
-					display:none; 
-}
+
+@media screen and (max-width: 426px)  {
+.text-header{
+	p{
+		display:none;
 	}
-		}
+	 }
+	  }
 
-
-
-@media screen and (max-width: 540px) {
-
-.col-sm-8{
-	h2{
-		display:flex;
-		position:relative;
-		top:25%;
-        font-size:5rem;
-}
-	}
-		}
 
 @media screen and (max-width: 540px)  {
 
@@ -941,10 +925,4 @@ html{
 		}
 	}
 }
- @media screen and (max-width: 426px) {
- 	.contenedor-all{
- 		width:100%;
- 		max-width:426px;
- 	}
 
- }
