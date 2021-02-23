@@ -248,6 +248,7 @@ margin:auto;
 
 			font-family:Roboto;
 			font-weight: 600;
+			margin-top: 10px;
 
 			
 
@@ -315,8 +316,9 @@ margin:auto;
 	font-family:Roboto;
 	font-size:36px;
 	color:#B35915;	
-	margin-top:20px;
+	margin-top:30px;
 	margin-bottom:30px;
+	padding-top:15px;
 	text-align:center;
 	}
 }
@@ -411,6 +413,16 @@ margin:auto;
 	}
 }
 
+.container_espacio{
+	width:100%;
+	height:200px;
+	border: 1px solid black;
+}
+
+
+	
+  
+ 
 // guia responsive
 
 @media screen and (max-width: 540px) {
