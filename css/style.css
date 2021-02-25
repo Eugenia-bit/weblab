@@ -742,14 +742,21 @@ html {
 }
 @media screen and (max-width: 426px) {
   .espacio .espacio-texto p {
-    font-family: Roboto;
-    font-size: 0.7rem;
-    margin-top: 30px;
+    display: none;
   }
 }
 @media screen and (max-width: 426px) {
-  .espacio {
-    width: 50%;
+  .btn-sabermas {
+    display: flex;
+    padding: 7px;
+    color: #f4f4f4;
+    height: 35px;
+    margin-left: 35px;
+    background-color: #219460;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    top: 60%;
   }
 }
 .novedades_alle {
@@ -876,26 +883,48 @@ html {
 
 .title-index {
   font-family: Roboto;
-  font-size: 36px;
+  font-size: 55px;
   display: flex;
   position: absolute;
-  left: 30%;
-  color: #B35915;
+  left: -90%;
+  bottom: 40%;
+  color: white;
   margin-bottom: 30px;
+  font-weight: 600;
+  color: #5C704C;
 }
 
 .texto-index {
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 30px;
-  border-top: 40px;
+  border-top: 50px;
 }
 
 .post-presentacion {
   background-color: white;
+}
+
+.btn-sabermas {
+  padding: 7px;
+  color: #f4f4f4;
+  height: 35px;
+  margin-left: 35px;
+  background-color: #219460;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  left: 70%;
+  top: 60%;
+}
+
+.btn-sabermas:hover {
+  color: #f4f4f4;
+  background-color: #2ED188;
 }
 
 /*# sourceMappingURL=style.css.map */
