@@ -850,24 +850,15 @@ html{
   }
    }
 
-.post-presentacion{
-	 width:100%;
-	 min-width:1200px;
-     height:200px;
-	 margin:0px 0px 5px 0px;
-	 padding:5px;
-	 box-sizing:border-box;
-     background:#B35915;
-	 opacity:.8; 
- }
 
- .post.presentacion {
- 	span{
 
- 		color:#212529;
- 		font-size:100px;
- 	}
- }   
+ // .post.presentacion {
+ // 	span{
+
+ // 		color:#212529;
+ // 		font-size:100px;
+ // 	}
+ // }   
 
 
 
@@ -880,7 +871,7 @@ html{
 		}
 }
 @media screen and (max-width: 426px)  {
-.main-content{
+  .main-content{
  			h2,p{
  				display:none;
  		}
@@ -951,8 +942,8 @@ html{
  @media screen and (max-width: 426px)  {
 
     .presentacion{
-	section{ 
-		h3{ 
+	  section{ 
+		 h3{ 
 			font-family:Roboto;
 			font-size:1.5rem;
 			color:#B35915;
@@ -966,36 +957,36 @@ html{
  @media screen and (max-width: 426px)  {
 
 	.presentacion{
-		section{
-			p{
+			section{
+					p{
 
-			font-family:Roboto;
-			font-size:1rem;
-			padding:0px;
-			margin-left:0px;
-			margin-top:10px;
+						font-family:Roboto;
+						font-size:1rem;
+						padding:0px;
+						margin-left:0px;
+						margin-top:10px;
 }
  }
   } 
    }
 			
  @media screen and (max-width: 426px)  {
-.galeria{
-		.contenedor-img {
-			.imagen{
-				display:flex;
-				width:100%;
-				height:auto;
+			.galeria{
+				.contenedor-img {
+							.imagen{
+								display:flex;
+								width:100%;
+								height:auto;
 			}
 		}
 	}
 }
 
 @media screen and (max-width: 426px) {
-.post-presentacion{
-     width:100%;
-     height:400px;
-     background-color:#f4f4f4;
+	.post-presentacion{
+    				 width:100%;
+     				 height:400px;
+     				 background-color:#f4f4f4;
 
 }
  }
@@ -1005,9 +996,10 @@ html{
 		.espacio{
 			.espacio-texto{
 
-					width:50%;
+					width:55%;
 					font-family:Roboto;
 					font-size:10px;
+					background-color:#f4f4f4;
 }
 	}
 		}
@@ -1035,26 +1027,10 @@ html{
 				display:none;
 }
 	}
-
 		}
 			}
-	
-@media screen and (max-width: 426px){
-	.btn-sabermas{
-		   display:flex;
 
-   padding:7px;
-   color:#f4f4f4;
-   height:35px;
-   margin-left:35px;
-   background-color:#219460;
-   text-decoration:none;
-   border-radius:5px;
-   position:relative;
-   top:60%;
 
-	}
-}
 // novedades
 
 body{
@@ -1201,7 +1177,7 @@ body{
 .espacio{
 
 	width:98%;
-	height:300px;
+	height:200px;
 	background-color:#799464;
 	background-size:140px;
 }
@@ -1210,8 +1186,8 @@ body{
         display:flex;
         position:relative;
         left:50%;
-        width:50%;
-        height:300px;	
+        width:90%;
+        height:200px;	
 		background-color:#f4f4f4;
 
 }
@@ -1243,25 +1219,15 @@ body{
 	 }
 
 .post-presentacion{
+	width:100%;
+	height:100px;
 	background-color:white;
+	display:flex;
+	position:relative;
+	top:20px;
+
 }
 
-.btn-sabermas {
+
+
 	
-   padding:7px;
-   color:#f4f4f4;
-   height:35px;
-   margin-left:35px;
-   background-color:#219460;
-   text-decoration:none;
-   border-radius: 5px;
-   display:flex;
-   position:relative;
-   left:70%;
-   top:60%;
-}
-
-.btn-sabermas:hover {
-    color:#f4f4f4;
-	background-color:#2ED188;
-	}
