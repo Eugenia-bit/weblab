@@ -83,6 +83,7 @@
   font-size: 1rem;
   padding: 10px;
   color: #DEDEDE;
+  font-weight: 800;
   position: relative;
   left: 25px;
   top: 10px;
@@ -616,12 +617,14 @@ html {
   font-size: 3rem;
   color: #B35915;
   padding: 30px;
+  margin-bottom: 20px;
   margin: 0px auto;
 }
 
 .presentacion section p {
   font-family: Roboto;
-  font-size: 1, 5rem;
+  font-size: 3rem;
+  font-weight: 800;
   padding: 20px;
   margin-left: 10px;
 }
@@ -830,58 +833,6 @@ html {
   font-family: Roboto;
   font-size: 14px;
   margin: 15px;
-}
-
-.contenedor-all {
-  background-color: #f7f7f7;
-}
-
-.espacio {
-  width: 98%;
-  height: 200px;
-  background-color: #799464;
-  background-size: 140px;
-}
-
-.espacio-texto {
-  display: flex;
-  position: relative;
-  left: 50%;
-  width: 90%;
-  height: 200px;
-  background-color: #f4f4f4;
-}
-
-.title-index {
-  font-family: Roboto;
-  font-size: 55px;
-  display: flex;
-  position: absolute;
-  left: -90%;
-  bottom: 40%;
-  color: white;
-  margin-bottom: 30px;
-  font-weight: 600;
-  color: #5C704C;
-}
-
-.texto-index {
-  font-family: Roboto;
-  font-size: 16px;
-  display: flex;
-  position: absolute;
-  margin-top: 40px;
-  padding: 30px;
-  border-top: 50px;
-}
-
-.post-presentacion {
-  width: 100%;
-  height: 100px;
-  background-color: white;
-  display: flex;
-  position: relative;
-  top: 20px;
 }
 
 /*# sourceMappingURL=css.style.map */
