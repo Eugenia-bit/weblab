@@ -429,6 +429,7 @@ margin:auto;
 	width:100%;
 	height:300px;
 }
+
 @media screen and (max-width: 540px) {
 
 .introduccion {
@@ -1243,25 +1244,98 @@ body{
 }
 	}
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 426px){
 	.novedades_alle{
 
     				display:block;
-    				overflow: hidden;
-}
-	}
+ }
 
-
-@media screen and (max-width: 540px){
-
+	
+@media screen and (max-width: 426px){
 	.novedades_alle{
+		.novedades{
+			width:80%;
+			height:380px;
+		}
+	}
+}
+
+@media screen and (max-width: 426px){
+	.novedades_alle{
+		.novedades{
+			a{
+				position:relative;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 426px){
+
+
     .novedades{
     	p{
 
-
-  				font-family:Roboto;
-  				font-size:10px;
-
+				font-family:Roboto;
+  				font-size:12px;
+  				display:block;
 }
- } 
- }}
+	} 
+ 		}
+			}
+
+@media screen and (max-width: 426px){
+	.Autores{
+
+		width:80%;
+			height:380px;
+}
+ }
+
+@media screen and (max-width: 426px){
+
+		.Autores{
+					a{
+						position:relative;
+}
+ }
+  }
+
+@media screen and (max-width: 426px){
+
+		.Autores{
+			p{
+				font-family:Roboto;
+  				font-size:12px;
+  				display:block;
+ }
+  }
+   }
+
+@media screen and (max-width: 426px){
+	.consejos{
+
+		width:80%;
+			height:380px;
+}
+ }
+
+@media screen and (max-width: 426px){
+
+		.consejos{
+					a{
+						position:relative;
+}
+ }
+  }
+
+@media screen and (max-width: 426px){
+
+		.consejos{
+			p{
+				font-family:Roboto;
+  				font-size:12px;
+  				display:block;
+ }
+  }
+   }
