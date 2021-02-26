@@ -1089,7 +1089,7 @@ body{
 	}
 .novedades{
 	width:600px;
-	height:420px;
+	height:370px;
 	position:relative;
 	left:10%;
 	top:30%;
@@ -1126,8 +1126,9 @@ body{
 .novedades{
 	p{
 		font-family:Roboto;
-		font-size:14px;
+		font-size:16px;
 		margin:15px;
+		font-weight:600;
 		position:absolute;
 		bottom:2px;
 
@@ -1139,7 +1140,7 @@ body{
 }
 .Autores{
 	width:600px;
-	height:420px;
+	height:370px;
 	position:relative;
 	left:10%;
 	top:30%;
@@ -1181,9 +1182,11 @@ body{
 .Autores{
 	p{
 		font-family:Roboto;
-		font-size:14px;
+		font-size:16px;
 		margin:15px;
+		font-weight:600;
 		position:absolute;
+		text-align:left;
 		bottom:2px;
 }
 	}
@@ -1194,7 +1197,7 @@ body{
 }
 .consejos{
 	width:600px;
-	height:420px;
+	height:370px;
 	position:relative;
 	left:10%;
 	top:30%;
@@ -1236,8 +1239,9 @@ body{
 .consejos{
 	p{
 		font-family:Roboto;
-		font-size:14px;
+		font-size:16px;
 		margin:15px;
+		font-weight:600;
 		position:absolute;
 		bottom:2px;
 
@@ -1277,7 +1281,7 @@ body{
     	p{
 
 				font-family:Roboto;
-  				font-size:12px;
+  				font-size:18px;
   				display:block;
 }
 	} 

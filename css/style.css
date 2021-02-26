@@ -771,7 +771,7 @@ html {
 
 .novedades {
   width: 600px;
-  height: 420px;
+  height: 370px;
   position: relative;
   left: 10%;
   top: 30%;
@@ -801,8 +801,9 @@ html {
 
 .novedades p {
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 16px;
   margin: 15px;
+  font-weight: 600;
   position: absolute;
   bottom: 2px;
 }
@@ -813,7 +814,7 @@ html {
 
 .Autores {
   width: 600px;
-  height: 420px;
+  height: 370px;
   position: relative;
   left: 10%;
   top: 30%;
@@ -848,9 +849,11 @@ html {
 
 .Autores p {
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 16px;
   margin: 15px;
+  font-weight: 600;
   position: absolute;
+  text-align: left;
   bottom: 2px;
 }
 
@@ -860,7 +863,7 @@ html {
 
 .consejos {
   width: 600px;
-  height: 420px;
+  height: 370px;
   position: relative;
   left: 10%;
   top: 30%;
@@ -894,8 +897,9 @@ html {
 
 .consejos p {
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 16px;
   margin: 15px;
+  font-weight: 600;
   position: absolute;
   bottom: 2px;
 }
@@ -919,7 +923,7 @@ html {
 @media screen and (max-width: 426px) and (max-width: 426px) {
   .novedades p {
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 18px;
     display: block;
   }
 }
