@@ -750,7 +750,7 @@ html {
   top: 30%;
   margin: 10px;
   border: 1px solid #B4DBB6;
-  background-color: #B4DBB6;
+  background-color: #88A671;
 }
 
 .novedades img {
@@ -779,7 +779,7 @@ html {
   top: 30%;
   margin: 10px;
   border-radius: 3px;
-  background-color: #799464;
+  background-color: #88A671;
 }
 
 .Autores img {
