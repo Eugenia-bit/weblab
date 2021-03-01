@@ -1057,12 +1057,13 @@ html {
 @media screen and (max-width: 426px) {
   .error404-texto h4 {
     font-family: Prompt;
-    font-size: 36px;
+    font-size: 30px;
     display: flex;
     position: relative;
-    left: 10%;
+    left: 20%;
     bottom: 50%;
     margin-bottom: 60%;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 426px) {
